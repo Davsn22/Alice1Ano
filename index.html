@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convite - Alice 1 ano</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: url('fundo.png') no-repeat center top;
+      background-size: contain; /* Faz caber na tela */
+      background-repeat: no-repeat;
+      background-color: #ffeef2; /* Cor de fundo complementar */
+      min-height: 100vh;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #A14C4C;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.6);
+      padding: 25px;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 360px;
+    }
+
+    .botoes {
+    display: flex;
+    justify-content: space-around
+    padding: 5px;
+    gap: 10px;
+}
+
+    .nome {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #e28297;
+    }
+
+    .info {
+      font-size: 1.3em;
+      margin: 20px 0;
+    }
+
+    .destaque {
+      font-size: 3em;
+      font-weight: bold;
+      color: #e05976;
+    }
+
+    .endereco {
+      font-size: 1em;
+      color: #793a3a;
+      margin-top: 20px;
+    }
+    .botao-borboleta {
+    flex: 1;
+    max-width: 33.3%;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+    .botao-borboleta img {
+      width: 100px;
+      height: auto;
+      transition: transform 0.3s;
+    }
+
+    .botao-borboleta:hover img {
+      transform: scale(1.1);
+    }
+
+    .botao-borboleta span {
+      margin-top: 8px;
+      font-size: 16px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="#topo">
+      <img src="/icons/alice 0.2.png" alt="Logo do evento" style="width: 100%; max-width: 300px; margin-bottom: 20px;"></a>
+    <div class="info">
+      sexta | <span class="destaque">20</span> | junho<br>
+      Às 19 horas
+    </div>
+    <div class="endereco">
+      Em minha casa,<br>
+      Rua das Flores, 123 – Santa Inês - MA
+    </div>
+    <div class="botoes" >
+        <a href="#confirmar" class="botao-borboleta">
+          <img src="/icons/borboleta 1.png" alt="Confirmar presença">
+          <span>Confirmar presença</span>
+        </a>
+    
+        <a href="#presentes" class="botao-borboleta">
+          <img src="/icons/borboleta 2.png" alt="Indicações de presentes">
+          <span>Indicações de presentes</span>
+        </a>
+    
+        <a href="#localizacao" class="botao-borboleta">
+          <img src="/icons/borboleta 3.png" alt="Localização do evento">
+          <span>Localização do evento</span>
+        </a>
+    </div>
+  </div>
+
+</body>
+</html>
