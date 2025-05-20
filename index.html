@@ -17,7 +17,8 @@
       background-repeat: no-repeat;
       background-color: #ffeef2; /* Cor de fundo complementar */
       min-height: 100vh;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
+      /*font-family: 'Comic Sans MS', cursive, sans-serif;*/
+      font-family: 'Caveat', cursive;
       color: #A14C4C;
       display: flex;
       justify-content: center;
@@ -39,7 +40,7 @@
     justify-content: space-around
     padding: 5px;
     gap: 10px;
-}
+    }
 
     .nome {
       font-size: 2.5em;
@@ -48,7 +49,7 @@
     }
 
     .info {
-      font-size: 1.3em;
+      font-size: 1.5em;
       margin: 20px 0;
     }
 
@@ -87,36 +88,37 @@
     }
     
   </style>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <a href="#topo">
-      <img src="alice 0.2.png" alt="Logo do evento" style="width: 100%; max-width: 300px; margin-bottom: 20px;"></a>
+    <a href="Instagram.html">
+      <img src="/icons/alice 0.2.png" alt="Logo do evento" style="width: 100%; max-width: 300px; margin-bottom: 20px;"></a>
     <div class="info">
       sexta | <span class="destaque">20</span> | junho<br>
       Às 19 horas
+    </div>
+
+    <div class="botoes" >
+        <a href="https://wa.me/5598984812240?text=Olá!%20Gostaria%20de%20confirmar%20minha%20presença%20no%20aniversário%20da%20Alice" class="botao-borboleta">
+          <img src="borboleta 1.png" alt="Confirmar presença">
+          <span>Confirmar presença</span>
+        </a>
+    
+        <a href="presentes.html" class="botao-borboleta">
+          <img src="borboleta 2.png" alt="Indicações de presentes">
+          <span>Indicações de presentes</span>
+        </a>
+    
+        <a href="https://maps.app.goo.gl/CV3mzSdW2mnCCXfo9" class="botao-borboleta">
+          <img src="borboleta 3.png" alt="Localização do evento">
+          <span>Localização do evento</span>
+        </a>
     </div>
     <div class="endereco">
       Em minha casa,<br>
       Rua das Flores, 123 – Santa Inês - MA
     </div>
-    <div class="botoes" >
-        <a href="#confirmar" class="botao-borboleta">
-          <img src="borboleta 1.png" alt="Confirmar presença">
-          <span>Confirmar presença</span>
-        </a>
-    
-        <a href="#presentes" class="botao-borboleta">
-          <img src="borboleta 2.png" alt="Indicações de presentes">
-          <span>Indicações de presentes</span>
-        </a>
-    
-        <a href="#localizacao" class="botao-borboleta">
-          <img src="borboleta 3.png" alt="Localização do evento">
-          <span>Localização do evento</span>
-        </a>
-    </div>
   </div>
-
 </body>
 </html>
